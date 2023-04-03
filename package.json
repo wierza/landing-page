@@ -12,7 +12,7 @@
     
     "test": "npm run test:html && npm-run-all test*",
     "test:html": "html-validate *.html",
-    
+
     "build": "npm-run-all build:* test",
     "build:sass": "sass --style=compressed --no-source-map sass:css",
     "build:autoprefixer": "postcss css/*.css --use autoprefixer -d css",
