@@ -1,4 +1,5 @@
 $color-light: #ffffff;
+$color-yellow: #ffd32a;
 
 body {
     margin: 0; 
@@ -26,7 +27,7 @@ body {
     left: -40%;
     top: 6%;
     margin: 0 36px 0 0;
-    color:#FFFF00;
+    color: $color-yellow;
     font-size: 20px;
     font-style: italic;
 }
@@ -87,9 +88,9 @@ body {
     cursor: pointer;
     border-width: 2px;
     border-style: solid;
-    border-color: #FFFF00;
+    border-color: $color-yellow;
     color: $color-light;
-    background-color: #FFFF00; /*linear-gradient(90deg, $color-light 50%, transparent 50%);*/
+    background-color: $color-yellow; /*linear-gradient(90deg, $color-light 50%, transparent 50%);*/
     background-position: 100% 0;
     background-size: 300%;
 }
