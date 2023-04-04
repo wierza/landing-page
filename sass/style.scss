@@ -1,9 +1,95 @@
+$color-light: #ffffff;
+
+body {
+    margin: 0; 
+    text-align: center;
+     background: #fff;
+     color: #3d3d3d;
+     font-size: 16px;
+     line-height: 1.7;
+}
+
 .splash {
     margin: 0 0 72px 0;
     height: 100vh;
     position: relative;
-    background-image: url(https://images.pexels.com/photos/3109167/pexels-photo-3109167.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-image: url('https://images.pexels.com/photos/3109167/pexels-photo-3109167.jpeg?auto=compress&cs=tinysrgb&w=800');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.name {
+
+    margin: 0 36px 0 0;
+    position: relative;
+    left: -40%;
+    top: 6%;
+    margin: 0 36px 0 0;
+    color:#FFFF00;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.container {
+    position: relative;
+    left: 25%;
+   
+}
+.navigation {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 36px 0 0;
+        position: relative;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-light;
+    }
+}
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    .page-title {
+        color: $color-light;
+        font-size: 20px;
+        margin: 48px 0 0 0;
+        font-style: italic;
+    }   
+
+    .page-subtitle {
+        color: $color-light;
+        font-size: 50px;
+        margin: 36px 0 0 0;
+    }
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFF00;
+    color: $color-light;
+    background-color: #FFFF00; /*linear-gradient(90deg, $color-light 50%, transparent 50%);*/
+    background-position: 100% 0;
+    background-size: 300%;
 }
